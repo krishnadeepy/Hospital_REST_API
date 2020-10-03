@@ -1,0 +1,86 @@
+/// Hospital Details
+{
+        "_id" : ObjectId("5f7874f99c94cf865bf53afd"),
+        "hId" : "H1",
+        "name" : "Apollo hospital",
+        "location" : "17.398644,78.434334",
+        "address" : "PlotNo. 3-5-874/1 Near,old mla headquaters,hyderguda,hyderabad,telangana 500029",
+        "contactNo" : "040-23231380"
+}
+{
+        "_id" : ObjectId("5f7874f99c94cf865bf53afe"),
+        "hId" : "H2",
+        "name" : "Yoshoda hospital",
+        "location" : "18.273874,98.883774",
+        "address" : "PlotNo. 7-9-398/2 Near,old safilguda,hyderabad,telangana 500026",
+        "contactNo" : "040-879827384"
+}
+{
+        "_id" : ObjectId("5f7874f99c94cf865bf53aff"),
+        "hId" : "H3",
+        "name" : "khana hospital",
+        "location" : "27.8939849,89.8493827",
+        "address" : "PlotNo. 8-9-390/2, dwaraka, rajesthan 507890",
+        "contactNo" : "040-89837264"
+}
+
+
+
+
+/// Ventilator Details
+{
+        "_id" : ObjectId("5f7874df9c94cf865bf53af5"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V2",
+        "status" : "available",
+        "name" : "Yashoda hospital"
+}
+{
+        "_id" : ObjectId("5f7874df9c94cf865bf53af6"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V3",
+        "status" : "in-maintenance",
+        "name" : "Yashoda hospital"
+}
+{
+        "_id" : ObjectId("5f7874ec9c94cf865bf53af7"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V1",
+        "status" : "occupied",
+        "name" : "khana hospital"
+}
+{
+        "_id" : ObjectId("5f7874ec9c94cf865bf53af8"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V2",
+        "status" : "available",
+        "name" : "khana hospital"
+}
+{
+        "_id" : ObjectId("5f7874ec9c94cf865bf53af9"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V3",
+        "status" : "in-maintenance",
+        "name" : "khana hospital"
+}
+{
+        "_id" : ObjectId("5f7874f19c94cf865bf53afa"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V1",
+        "status" : "occupied",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f7874f19c94cf865bf53afb"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V2",
+        "status" : "available",
+        "name" : "Apollo hospital"
+}
+{
+        "_id" : ObjectId("5f7874f19c94cf865bf53afc"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V3",
+        "status" : "in-maintenance",
+        "name" : "Apollo hospital"
+}

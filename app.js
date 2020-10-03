@@ -66,7 +66,7 @@ app.get('/ventilatorDetails', middleware.checkToken, function(req, res) {
 app.put('/addVentilator', middleware.checkToken, (req, res) => {
     db.collection('ventilators').insertOne({
         "hId": req.body.hId,
-        "VentilatorId": req.body.ventilatorId,
+        "ventilatorId": req.body.ventilatorId,
         "status": req.body.status,
         "name": req.body.name
     }, (err, res_) => {
